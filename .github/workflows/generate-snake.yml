@@ -27,7 +27,7 @@ jobs:
       - name: Upload to repo
         run: |
           git config --global user.email "emdadul.haque@augmedix.com"
-          git config --global user.name "Emdadul Haque Rafat"
+          git config --global user.name "Augmedix Rafat"
           git add .
           git commit -m "update the snake"
           git push --force
