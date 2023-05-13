@@ -29,5 +29,5 @@ jobs:
           git config --global user.email "emdadul.haque@augmedix.com"
           git config --global user.name "Augmedix Rafat"
           git add .
-          git commit -m "update the snake"
+          git commit -m "chore: :+1: image snake"
           git push --force
