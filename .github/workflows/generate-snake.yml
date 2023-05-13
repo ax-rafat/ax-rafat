@@ -4,7 +4,8 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    # - cron: "0 */6 * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -25,7 +26,7 @@ jobs:
 
       - name: Upload to repo
         run: |
-          git config --global user.email "rafathaque1997@gmail.com"
+          git config --global user.email "emdadul.haque@augmedix.com"
           git config --global user.name "Emdadul Haque Rafat"
           git add .
           git commit -m "update the snake"
