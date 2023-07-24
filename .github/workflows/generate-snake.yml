@@ -19,6 +19,8 @@ jobs:
       - name: Generate Snake
         uses: Platane/snk@v3
         id: snake-gif
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           github_user_name: ${{ github.repository_owner }}
 #           gif_out_path: ./assets/github-contribution-grid-snake.gif
