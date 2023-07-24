@@ -16,6 +16,6 @@ ax-rafat/ax-rafat is a ✨ special ✨ repository because its `README.md` (this 
 You can click the Preview link to take a look at your changes.
 --->
 <p align="center">
-<img src="/assets/github-contribution-grid-snake.svg" title="@ax-rafat-github-snake" alt="@ax-rafat-github-snake"">
+<img src="/assets/github-snake.svg" title="@ax-rafat-github-snake" alt="@ax-rafat-github-snake"">
 <!--   ![*](/assets/github-contribution-grid-snake.svg) -->
 </p>
